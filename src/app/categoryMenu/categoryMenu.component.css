@@ -1,0 +1,25 @@
+button {
+  display: inline-block;
+  height: 134px;
+  padding: 10px;
+  margin: 10px;
+  vertical-align: top;
+  width: auto;
+}
+
+#close-image img {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+#close-CSS {
+  background-image: url("http://thinkingstiff.com/images/matt.jpg");
+  background-size: 100px 130px;
+  height: 134px;
+  width: 104px;
+}
+
+.set {
+  text-align: center;
+}
