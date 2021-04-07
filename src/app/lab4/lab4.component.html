@@ -1,0 +1,7 @@
+<div>
+    <h1>Lab 4</h1>
+    <div *ngFor = "let item of arr">
+        <p *ngIf = "item % 2 == 0" class="number-even">{{ item }}</p>
+        <p *ngIf = "item % 2 != 0" class="number-odd">{{ item }}</p>
+    </div>
+</div>
