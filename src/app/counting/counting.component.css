@@ -1,0 +1,20 @@
+.header {
+  color: rgb(0, 141, 94);
+  text-align: center;
+}
+
+.h2 {
+  color: rgb(0, 199, 199);
+}
+
+.buttonUp {
+  background-color: rgb(167, 220, 255);
+}
+
+.buttonDown {
+  background-color: rgb(162, 252, 225);
+}
+
+.count {
+  padding-left: 100px;
+}
