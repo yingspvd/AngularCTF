@@ -11,6 +11,13 @@ import {TopBanner} from './topBanner/topBanner.component';
 import {CategoryMenu} from './categoryMenu/categoryMenu.component';
 import {SearchBar} from './searchBar/searchBar.component';
 import {ToDoList} from './toDoList/todolist.component';
+import { NavBarHW3Component } from './HW3/nav-bar-hw3/nav-bar-hw3.component';
+import { SearchBoxHw3Component } from './HW3/search-box-hw3/search-box-hw3.component';
+import { MenuHw3Component } from './HW3/menu-hw3/menu-hw3.component';
+import { HomeHW3Component } from './HW3/home-hw3/home-hw3.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BannerComponent } from './HW3/banner/banner.component';
+
 
 
 @NgModule({
@@ -23,11 +30,17 @@ import {ToDoList} from './toDoList/todolist.component';
     TopBanner,
     CategoryMenu,
     SearchBar,
-    ToDoList
+    ToDoList,
+    NavBarHW3Component,
+    SearchBoxHw3Component,
+    MenuHw3Component,
+    HomeHW3Component,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
