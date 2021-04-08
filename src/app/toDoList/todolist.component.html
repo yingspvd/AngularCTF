@@ -1,0 +1,9 @@
+<h1>My Tasks Today</h1>
+<ul>
+    <li *ngFor="let task of tasks">{{ task }}</li>
+</ul>
+
+<div>
+    Task : <input [(ngModel)] = "text_input">
+    <button (click) = "addTask()">Add</button>
+</div>
