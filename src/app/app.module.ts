@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from'@angular/forms';
 
 import { AppComponent } from './app.component';
-import {HomeComponent} from './home/home.component';
+import {HomeComponent} from './HW1/home/home.component';
 import {CountingComponent} from './counting/counting.component';
 import {Lab4} from './lab4/lab4.component';
-import {NavBar} from './navBar/navBar.component';
-import {TopBanner} from './topBanner/topBanner.component';
-import {CategoryMenu} from './categoryMenu/categoryMenu.component';
-import {SearchBar} from './searchBar/searchBar.component';
+import {NavBar} from './HW1/navBar/navBar.component';
+import {TopBanner} from './HW1/topBanner/topBanner.component';
+import {CategoryMenu} from './HW1/categoryMenu/categoryMenu.component';
+import {SearchBar} from './HW1/searchBar/searchBar.component';
 import {ToDoList} from './toDoList/todolist.component';
 import { NavBarHW3Component } from './HW3/nav-bar-hw3/nav-bar-hw3.component';
 import { SearchBoxHw3Component } from './HW3/search-box-hw3/search-box-hw3.component';
